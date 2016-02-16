@@ -36,6 +36,7 @@
     NSRange nameRange = [plainText rangeOfString:title];
     [styledText setAttributes:attributes range:nameRange];
     _statusTitle.attributedText = styledText;
+    
 }
 
 - (void)didReceiveMemoryWarning {
